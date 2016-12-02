@@ -1,0 +1,147 @@
+{
+  "base": {
+    "rotations": "b1:d1:C1:e1,c1:d1:a1:e1,A1:E1:b1:D1,a1:b1:g1:e1:F1:H1:C1,d1:h1:b1:a1:C1:G1:F1,g1:E1:D1:h1,d1:E1:f1:h1,e1:g1:f1:D1",
+    "bounds": "bc1 ce1 eg1 gd1 db1,dg1 gh1 he1 ed1,eh1 hd1 dc1 cb1 be1"
+  },
+  "graphic": {
+    "vertices": [
+      {
+        "id": "a",
+        "coord": {
+          "y": 0.0,
+          "x": 0.0
+        },
+        "real_id": "a",
+        "fix": true
+      },
+      {
+        "id": "b",
+        "coord": {
+          "y": 0.0,
+          "x": 0.33
+        },
+        "real_id": "b",
+        "fix": true
+      },
+      {
+        "id": "c",
+        "coord": {
+          "y": 0.0,
+          "x": 0.66
+        },
+        "real_id": "c",
+        "fix": true
+      },
+      {
+        "id": "a",
+        "coord": {
+          "y": 0.0,
+          "x": 1.0
+        },
+        "real_id": "d",
+        "fix": true
+      },
+      {
+        "id": "d",
+        "coord": {
+          "y": 0.33,
+          "x": 0.0
+        },
+        "real_id": "e",
+        "fix": true
+      },
+      {
+        "id": "e",
+        "coord": {
+          "y": 0.33,
+          "x": 1.0
+        },
+        "real_id": "f",
+        "fix": true
+      },
+      {
+        "id": "e",
+        "coord": {
+          "y": 0.66,
+          "x": 0.0
+        },
+        "real_id": "g",
+        "fix": true
+      },
+      {
+        "id": "d",
+        "coord": {
+          "y": 0.66,
+          "x": 1.0
+        },
+        "real_id": "h",
+        "fix": true
+      },
+      {
+        "id": "a",
+        "coord": {
+          "y": 1.0,
+          "x": 0.0
+        },
+        "real_id": "i",
+        "fix": true
+      },
+      {
+        "id": "b",
+        "coord": {
+          "y": 1.0,
+          "x": 0.33
+        },
+        "real_id": "j",
+        "fix": true
+      },
+      {
+        "id": "c",
+        "coord": {
+          "y": 1.0,
+          "x": 0.66
+        },
+        "real_id": "k",
+        "fix": true
+      },
+      {
+        "id": "a",
+        "coord": {
+          "y": 1.0,
+          "x": 1.0
+        },
+        "real_id": "l",
+        "fix": true
+      },
+      {
+        "id": "f",
+        "coord": {
+          "y": 0.49297167477225023,
+          "x": 0.79709351785598714
+        },
+        "real_id": "m",
+        "fix": true
+      },
+      {
+        "id": "g",
+        "coord": {
+          "y": 0.42697171068108397,
+          "x": 0.59709362558248846
+        },
+        "real_id": "n",
+        "fix": true
+      },
+      {
+        "id": "h",
+        "coord": {
+          "y": 0.5589716388634165,
+          "x": 0.59709362558248846
+        },
+        "real_id": "o",
+        "fix": true
+      }
+    ],
+    "edges": ["a:b", "a:e", "b:c", "b:e", "c:d", "c:f", "d:f", "e:g", "f:h", "g:i", "g:j", "h:k", "h:l", "i:j", "j:k", "k:l", "m:n", "m:f", "m:h", "m:o", "n:e", "n:f", "n:o", "o:g", "o:h"],
+    "real_bounds": "bc cf fn ne eb,en no og ge,go oh hk kj jg"
+  }
+}

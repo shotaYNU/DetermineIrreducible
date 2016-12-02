@@ -1,0 +1,102 @@
+{
+  "base": {
+    "rotations": "b1:c1:B2:d1,A2:D1:d2:c1:a1:d3:D4:C2,a1:b1:d1:B2,c1:b2:b3:a1:B1:B4",
+    "bounds": "db2 bd1 db4 bd3"
+  },
+  "graphic": {
+    "vertices": [
+      {
+        "id": "a",
+        "coord": {
+          "y": 0.0,
+          "x": 0.0
+        },
+        "real_id": "a",
+        "fix": true
+      },
+      {
+        "id": "b",
+        "coord": {
+          "y": 0.0,
+          "x": 0.5
+        },
+        "real_id": "b",
+        "fix": true
+      },
+      {
+        "id": "a",
+        "coord": {
+          "y": 0.0,
+          "x": 1.0
+        },
+        "real_id": "c",
+        "fix": true
+      },
+      {
+        "id": "c",
+        "coord": {
+          "y": 0.33,
+          "x": 0.0
+        },
+        "real_id": "d",
+        "fix": true
+      },
+      {
+        "id": "d",
+        "coord": {
+          "y": 0.33,
+          "x": 1.0
+        },
+        "real_id": "e",
+        "fix": true
+      },
+      {
+        "id": "d",
+        "coord": {
+          "y": 0.66,
+          "x": 0.0
+        },
+        "real_id": "f",
+        "fix": true
+      },
+      {
+        "id": "c",
+        "coord": {
+          "y": 0.66,
+          "x": 1.0
+        },
+        "real_id": "g",
+        "fix": true
+      },
+      {
+        "id": "a",
+        "coord": {
+          "y": 1.0,
+          "x": 0.0
+        },
+        "real_id": "h",
+        "fix": true
+      },
+      {
+        "id": "b",
+        "coord": {
+          "y": 1.0,
+          "x": 0.5
+        },
+        "real_id": "i",
+        "fix": true
+      },
+      {
+        "id": "a",
+        "coord": {
+          "y": 1.0,
+          "x": 1.0
+        },
+        "real_id": "j",
+        "fix": true
+      }
+    ],
+    "edges": ["a:b", "a:d", "b:d", "b:f", "b:e", "b:c", "c:e", "d:f", "e:g", "e:i", "f:h", "f:i", "g:i", "g:j", "h:i", "i:j"],
+    "real_bounds": "fb be ei if"
+  }
+}
